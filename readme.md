@@ -9,4 +9,4 @@ just a combination of configs, icons, and themes leaning into toykonight. Love t
 - wofi
 - waybar
 
-
+Nothing fancy, some of the configs are borrowed, I'll try to tack them down after a while
