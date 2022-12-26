@@ -12,7 +12,7 @@ Doing my best to link to the origin of all the borrowed asseds, my desktop would
 ![example](pictures/screenshot.png)
 ---
 
-The use of Jetbrains Mono as my prefered font has stayed the same though. 
+The use of Jetbrains Mono as my prefered font has stayed the same though. I will probably be editing this later as subtrees were not the way I wanted/intended to link to the other repos; its something to look into for me
 
 | category | solution |
 | -------- | -------- |
