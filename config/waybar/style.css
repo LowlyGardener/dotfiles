@@ -1,100 +1,189 @@
+@import "catppuccin/mocha.css";
+
+/* =============================== */
+/* Universal Styling */
 * {
     border: none;
     border-radius: 0;
-    font-family: "Ubuntu Nerd Font";
-    font-size: 13px;
+    font-family: 'JetBrains Mono';
+    font-size: 14px;
     min-height: 0;
 }
+/* =============================== */
 
-window#waybar {
+
+/* =============================== */
+/* Bar Styling */
+#waybar {
     background: transparent;
-    color: white;
+    color: @text;
+    margin: 5px 0;
 }
+/* =============================== */
 
-#window {
-    font-weight: bold;
-    font-family: "Ubuntu";
-}
-/*
+
+/* =============================== */
+/* Workspaces */
 #workspaces {
-    padding: 0 5px;
+	border-radius: 1rem;
+    margin: 5px;
+	/*background-color: @surface0;*/
+	margin-left: 1rem;
 }
-*/
 
 #workspaces button {
-    padding: 0 5px;
-    background: transparent;
-    color: white;
-    border-top: 2px solid transparent;
+    background-color: @surface0;
+    color: @mauve;
+    border-radius: 1rem;
+    margin: 0px 5px;
+    padding: 0px 10px;
+    transition: all 0.5s cubic-bezier(0.33, 1.0, 0.68, 1.0); /* easeInOutCubic */
 }
 
-#workspaces button.focused {
-    color: #c9545d;
-    border-top: 2px solid #c9545d;
+#workspaces button.active {
+    color: @lavender;
+    border-radius: 1rem;
+    padding: 0rem 1rem;
 }
 
-#mode {
-    background: #64727D;
-    border-bottom: 3px solid white;
+#workspaces button:hover {
+	color: @lavender;
+	border-radius: 1rem;
+}
+/* =============================== */
+
+
+/* =============================== */
+/* Main Modules */
+#window,
+#tray,
+#backlight,
+#clock,
+#battery,
+#pulseaudio,
+#network,
+#mpd,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#custom-music,
+#custom-launcher,
+#custom-updates,
+#custom-nordvpn,
+#custom-notifications,
+#custom-power,
+#custom-weather {
+    background-color: @surface0;
+    color: @text;
+	border-radius: 1rem;
+	padding: 0.5rem 1rem;
+	margin: 5px 0;
+}
+/* =============================== */
+
+
+/* =============================== */
+/* System Monitoring Modules */
+#cpu, #memory, #temperature {
+    color: @blue;
 }
 
-#clock, #battery, #cpu, #memory, #network, #pulseaudio, #custom-spotify, #tray, #mode {
-    padding: 0 3px;
-    margin: 0 2px;
+#disk {
+    color: @peach;
 }
+/* =============================== */
 
+
+/* =============================== */
+/* Clock Module */
 #clock {
-    font-weight: bold;
+    color: @flamingo;
 }
+/* =============================== */
 
+
+/* =============================== */
+/* Battery Module */
 #battery {
+    color: @green;
 }
-
-#battery icon {
-    color: red;
-}
-
 #battery.charging {
+    color: @green;
 }
-
-@keyframes blink {
-    to {
-        background-color: #ffffff;
-        color: black;
-    }
-}
-
 #battery.warning:not(.charging) {
-    color: white;
-    animation-name: blink;
-    animation-duration: 0.5s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+    color: @maroon;
 }
-
-#cpu {
+#battery.critical:not(.charging) {
+    color: @red;
 }
+/* =============================== */
 
-#memory {
+
+/* =============================== */
+/* Backlight Module */
+#backlight {
+    color: @teal;
+    padding-right: 1.25rem;
 }
+/* =============================== */
 
+
+/* =============================== */
+/* Network Module */
 #network {
+	color: @blue;
+    padding-right: 1.25rem;
 }
+/* =============================== */
 
-#network.disconnected {
-    background: #f53c3c;
-}
 
+/* =============================== */
+/* PulseAudio Module */
 #pulseaudio {
+	color: @mauve;
+    padding-right: 1.20rem;
+}
+/* =============================== */
+
+/* =============================== */
+/* |       Custom Modules        | */
+/* =============================== */
+/* NordVPN Module */
+#custom-nordvpn {
+    color: @mauve;
+    padding-right: 1.25rem;
 }
 
-#pulseaudio.muted {
+/* Music/PlayerCTL Module */
+#custom-music {
+    color: @mauve;
+    border-radius: 1rem;
+    margin-left: 1rem;
 }
 
-#custom-spotify {
-    color: rgb(102, 220, 105);
+/* Launcher Module */
+#custom-launcher {
+    color: @mauve;
+    border-radius: 1rem;
 }
 
-#tray {
+/* Updates Module */
+#custom-updates {
+    color: @sky;
 }
+
+/* Powermenu Module */
+#custom-power {
+    color: @mauve;
+    margin-right: 1rem;
+    padding-right: 1.20rem;
+}
+
+/* Notifications Module */
+#custom-notifications {
+    color: @mauve;
+    border-radius: 1rem;
+    padding-right: 1.25rem;
+}
+/* =============================== */
