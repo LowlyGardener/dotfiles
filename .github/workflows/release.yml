@@ -1,0 +1,30 @@
+name: "GTK theme release"
+
+on: 
+  push:
+    tags:
+      - "*"
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          submodules: true
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Install colloid specific deps
+        run: sudo apt-get install sassc
+      - name: Generate themes
+        run: python ./install.py all -a all --zip
+      - name: Add zips to release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: ./releases/*.zip
