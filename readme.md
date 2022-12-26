@@ -29,5 +29,5 @@ The use of Jetbrains Mono as my prefered font has stayed the same though.
 
 I would love to point people to some creators I enjoy the work of/borrowed from (there are still some kinks to work out with regards to my setup, but it generally works) 
 
-- [RealStr1ke](https://github.com/RealStr1ke) : I borrowed his dotfiles waybar configs, looking forwared to their future work.
+- [RealStr1ke](https://github.com/RealStr1ke) : I borrowed their dotfiles waybar configs, looking forwared to their future work.
 - [Ruixi-rebirth](https://github.com/Ruixi-rebirth) : has a video on youtube showing linux ricing & workflow
