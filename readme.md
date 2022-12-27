@@ -6,7 +6,7 @@ My laptop situation:
 - Dell Inspiron 13 7375 2-in-1
 - Asus Zephyrus g14 [2022] * 
 
-Doing my best to link to the origin of all the borrowed asseds, my desktop wouldn't have looked like this alone and I'm truly greatful to everyone for posting their own dotfiles that helped culminate in this to this. As I moved from Fedora to Gentoo, I switched up some of the setups I was using. The most notible being the switch from TokyoNight themeing to Catppuccin (of the mocha varity) 
+Doing my best to link to the origin of all the borrowed assets, my desktop wouldn't have looked like this alone and I'm truly greatful to everyone for posting their own dotfiles that helped culminate in this. As I moved from Fedora to Gentoo, I switched up some of the setups I was using. The most notible being the switch from TokyoNight themeing to Catppuccin (of the mocha varity) 
 
 ---
 ![example](pictures/screenshot.png)
