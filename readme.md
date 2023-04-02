@@ -9,8 +9,6 @@ My laptop situation:
 Doing my best to link to the origin of all the borrowed assets, my desktop wouldn't have looked like this alone and I'm truly greatful to everyone for posting their own dotfiles that helped culminate in this. As I moved from Fedora to Gentoo, I switched up some of the setups I was using. The most notible being the switch from TokyoNight themeing to Catppuccin (of the mocha varity) 
 
 ---
-![example](pictures/screenshot.png)
----
 
 The use of Jetbrains Mono as my prefered font has stayed the same though. I will probably be editing this later as subtrees were not the way I wanted/intended to link to the other repos; its something to look into for me
 
