@@ -1,7 +1,0 @@
-pkgs/
-*-temp.scss
-__pycache__
-venv/
-
-# Releases folder
-releases
