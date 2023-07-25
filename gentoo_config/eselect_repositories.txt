@@ -1,0 +1,5 @@
+Available repositories:
+  [48]  brave-overlay * (https://gitlab.com/jason.oliveira/brave-overlay)
+  [127] gentoo # (https://gentoo.org/)
+  [131] gentoo-zh # (https://github.com/microcai/gentoo-zh)
+  [144] guru * (https://wiki.gentoo.org/wiki/Project:GURU)
