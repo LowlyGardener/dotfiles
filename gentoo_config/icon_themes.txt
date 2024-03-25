@@ -1,4 +1,0 @@
-total 0
-drwxr-xr-x 1 netroxel netroxel 164 Jun 29 13:55 Tela-circle
-drwxr-xr-x 1 netroxel netroxel 164 Jun 29 13:55 Tela-circle-dark
-drwxr-xr-x 1 netroxel netroxel 164 Jun 29 13:55 Tela-circle-light
